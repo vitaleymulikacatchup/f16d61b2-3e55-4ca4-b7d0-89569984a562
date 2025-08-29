@@ -15,16 +15,8 @@ export default function Home() {
       <NavbarBase
         logoSrc="/images/logo.svg"
         logoAlt="MemePulse Logo"
-        navItems={
-          [
-            { name: "Hero", id: "#hero" },
-            { name: "About", id: "#about" },
-            { name: "FAQ", id: "#faq" },
-            { name: "How to Buy", id: "#how-to-buy" },
-            { name: "Tokenomics", id: "#tokenomics" },
-            { name: "Footer", id: "#footer" }
-          ]
-        }
+        leftButtonText="Menu"
+        rightButtonText="Contact"
         className="fixed top-0 left-0 right-0 z-50"
       />
       <BillboardHero
