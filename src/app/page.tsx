@@ -9,22 +9,12 @@ import YearRoadmapTimeline from '@/components/sections/layouts/roadmap/YearRoadm
 import NumberGridTokenomics from '@/components/sections/layouts/tokenomics/NumberGridTokenomics';
 import FooterBase from '@/components/footer/FooterBase';
 
-const __randTraceNavbar = {};
-const __randTraceHero = {};
-const __randTraceAbout = {};
-const __randTraceFAQ = {};
-const __randTraceHowToBuy = {};
-const __randTraceTokenomics = {};
-const __randTraceFooter = {};
-
 export default function Home() {
   return (
     <>
       <NavbarBase
         logoSrc="/images/logo.svg"
         logoAlt="MemePulse Logo"
-        logoWidth={200}
-        logoHeight={50}
         navItems={
           [
             { name: "Hero", id: "#hero" },
@@ -64,9 +54,9 @@ export default function Home() {
         description="Our tokenomics structure ensures transparency and solid growth for our community."
         kpiItems={
           [
-            { value: "50M", description: "Total Supply", icon: null },
-            { value: "10M", description: "Market Cap", icon: null },
-            { value: "20%", description: "Liquidity", icon: null },
+            { value: "50M", description: "Total Supply" },
+            { value: "10M", description: "Market Cap" },
+            { value: "20%", description: "Liquidity" },
           ]
         }
       />
@@ -76,9 +66,9 @@ export default function Home() {
         logoHeight={50}
         columns={
           [
-            { title: "Links", items: [ { label: "Home", onClick: () => {} }, { label: "About", onClick: () => {} }, { label: "FAQ", onClick: () => {} }, { label: "How to Buy", onClick: () => {} } ] },
-            { title: "Follow Us", items: [ { label: "Twitter", onClick: () => {} }, { label: "Telegram", onClick: () => {} }, { label: "Discord", onClick: () => {} }, { label: "Reddit", onClick: () => {} } ] },
-            { title: "Legal", items: [ { label: "Privacy Policy", onClick: () => {} }, { label: "Terms of Service", onClick: () => {} } ] }
+            { title: "Links", items: [{ label: "Home", onClick: () => {} }, { label: "About", onClick: () => {} }, { label: "FAQ", onClick: () => {} }, { label: "How to Buy", onClick: () => {} }] },
+            { title: "Follow Us", items: [{ label: "Twitter", onClick: () => {} }, { label: "Telegram", onClick: () => {} }, { label: "Discord", onClick: () => {} }, { label: "Reddit", onClick: () => {} }] },
+            { title: "Legal", items: [{ label: "Privacy Policy", onClick: () => {} }, { label: "Terms of Service", onClick: () => {} }] }
           ]
         }
         copyrightText="© 2023 MemePulse All rights reserved."
