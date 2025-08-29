@@ -39,7 +39,7 @@ export default function Home() {
           [
             { title: "What is MemePulse Coin?", content: "MemePulse is a community-focused cryptocurrency formed around meme culture." },
             { title: "How can I buy MemePulse?", content: "You can purchase MemePulse Coin through various crypto exchanges." },
-            { title: "What are the benefits of holding MemePulse?", content: "Join our vibrant community and enjoy exclusive rewards and bonuses!" },
+            { title: "What are the benefits of holding MemePulse?", content: "Join our vibrant community and enjoy exclusive rewards and bonuses!" }
           ]
         }
       />
@@ -56,7 +56,7 @@ export default function Home() {
           [
             { value: "50M", description: "Total Supply" },
             { value: "10M", description: "Market Cap" },
-            { value: "20%", description: "Liquidity" },
+            { value: "20%", description: "Liquidity" }
           ]
         }
       />
